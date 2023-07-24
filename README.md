@@ -24,11 +24,11 @@ Data Preprocessing: The dataset is cleaned and processed to handle outliers, and
 
 Feature Engineering: Relevant features are selected, and new features may be created based on domain knowledge and data analysis for example for Age feature converting days to the years, Creating an attribute for BMI (Body Mass Index) using weight and height and then after removing outliers from ap_hi and ap_lo , Blood pressure feature was added.
 
-Model Selection: Various machine learning algorithms, such as Logistic Regression, Random Forest,xgboost and Support Vector Machines, are evaluated to identify the best-performing model.
+Model Selection: Various machine learning algorithms, such as Logistic Regression, Random Forest,xgboost and KNN , are evaluated to identify the best-performing model.
 
 Model Training and Evaluation: The selected model is trained on the data and evaluated using appropriate metrics  such as  precision, recall, and F1 score.
 for clinical dataset the recall score is important 
 Threshold Adjustment: The model's threshold may be tuned to achieve a desired balance between recall and precision, depending on the specific requirements and implications of false positives and false negatives.
 ## Result:
-The final trained model achieves promising results in predicting cardiovascular disease risk with a high recall of 70 % compared to other works on this dataset in the Kaggle. The model's performance has been validated through cross-validation to ensure its robustness and generalization to new data, and choosing the hyperparameter values through hyperparameter tuning involves finding the optimal values for the hyperparameters of a machine learning model.
+The final trained model achieves promising results in predicting cardiovascular disease risk with a high recall of nearly 70 % compared to other works on this dataset in the Kaggle. The model's performance has been validated through cross-validation to ensure its robustness and generalization to new data, and choosing the hyperparameter values through hyperparameter tuning involves finding the optimal values for the hyperparameters of a machine learning model.
 
